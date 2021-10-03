@@ -1,0 +1,2390 @@
+--Yv Admin v1.9
+
+local ScreenGui = {
+	ScreenGui = Instance.new("ScreenGui"),
+	Frame = Instance.new("Frame"),
+	Label = Instance.new("TextLabel"),
+	UICorner = Instance.new("UICorner"),
+	UICorner_2 = Instance.new("UICorner"),
+	ScrollingFrame = Instance.new("ScrollingFrame"),
+	UICorner_3 = Instance.new("UICorner"),
+	TextButton = Instance.new("TextButton"),
+	UICorner_4 = Instance.new("UICorner"),
+	UIGradient = Instance.new("UIGradient"),
+	UIListLayout = Instance.new("UIListLayout"),
+	TextButton_2 = Instance.new("TextButton"),
+	UICorner_5 = Instance.new("UICorner"),
+	UIGradient_2 = Instance.new("UIGradient"),
+	TextButton_3 = Instance.new("TextButton"),
+	UICorner_6 = Instance.new("UICorner"),
+	UIGradient_3 = Instance.new("UIGradient"),
+	TextButton_4 = Instance.new("TextButton"),
+	UICorner_7 = Instance.new("UICorner"),
+	UIGradient_4 = Instance.new("UIGradient"),
+	TextButton_5 = Instance.new("TextButton"),
+	UICorner_8 = Instance.new("UICorner"),
+	UIGradient_5 = Instance.new("UIGradient"),
+	TextButton_6 = Instance.new("TextButton"),
+	UICorner_9 = Instance.new("UICorner"),
+	UIGradient_6 = Instance.new("UIGradient"),
+	TextButton_7 = Instance.new("TextButton"),
+	UICorner_10 = Instance.new("UICorner"),
+	UIGradient_7 = Instance.new("UIGradient"),
+	TextButton_8 = Instance.new("TextButton"),
+	UICorner_11 = Instance.new("UICorner"),
+	UIGradient_8 = Instance.new("UIGradient"),
+	TextButton_9 = Instance.new("TextButton"),
+	UICorner_12 = Instance.new("UICorner"),
+	UIGradient_9 = Instance.new("UIGradient"),
+	TextButton_10 = Instance.new("TextButton"),
+	UICorner_13 = Instance.new("UICorner"),
+	UIGradient_10 = Instance.new("UIGradient"),
+	TextButton_11 = Instance.new("TextButton"),
+	UICorner_14 = Instance.new("UICorner"),
+	UIGradient_11 = Instance.new("UIGradient"),
+	TextButton_12 = Instance.new("TextButton"),
+	UICorner_15 = Instance.new("UICorner"),
+	UIGradient_12 = Instance.new("UIGradient"),
+	TextButton_13 = Instance.new("TextButton"),
+	UICorner_16 = Instance.new("UICorner"),
+	UIGradient_13 = Instance.new("UIGradient"),
+	TextButton_14 = Instance.new("TextButton"),
+	UICorner_17 = Instance.new("UICorner"),
+	UIGradient_14 = Instance.new("UIGradient"),
+	TextButton_15 = Instance.new("TextButton"),
+	UICorner_18 = Instance.new("UICorner"),
+	UIGradient_15 = Instance.new("UIGradient"),
+	TextButton_16 = Instance.new("TextButton"),
+	UICorner_19 = Instance.new("UICorner"),
+	UIGradient_16 = Instance.new("UIGradient"),
+	TextButton_17 = Instance.new("TextButton"),
+	UICorner_20 = Instance.new("UICorner"),
+	UIGradient_17 = Instance.new("UIGradient"),
+	TextButton_18 = Instance.new("TextButton"),
+	UICorner_21 = Instance.new("UICorner"),
+	UIGradient_18 = Instance.new("UIGradient"),
+	TextButton_19 = Instance.new("TextButton"),
+	UICorner_22 = Instance.new("UICorner"),
+	UIGradient_19 = Instance.new("UIGradient"),
+	TextButton_20 = Instance.new("TextButton"),
+	UICorner_23 = Instance.new("UICorner"),
+	UIGradient_20 = Instance.new("UIGradient"),
+	TextButton_21 = Instance.new("TextButton"),
+	UICorner_24 = Instance.new("UICorner"),
+	UIGradient_21 = Instance.new("UIGradient"),
+	TextButton_22 = Instance.new("TextButton"),
+	UICorner_25 = Instance.new("UICorner"),
+	UIGradient_22 = Instance.new("UIGradient"),
+	TextButton_23 = Instance.new("TextButton"),
+	UICorner_26 = Instance.new("UICorner"),
+	UIGradient_23 = Instance.new("UIGradient"),
+	TextButton_24 = Instance.new("TextButton"),
+	UICorner_27 = Instance.new("UICorner"),
+	UIGradient_24 = Instance.new("UIGradient"),
+	TextButton_25 = Instance.new("TextButton"),
+	UICorner_28 = Instance.new("UICorner"),
+	UIGradient_25 = Instance.new("UIGradient"),
+	TextButton_26 = Instance.new("TextButton"),
+	UICorner_29 = Instance.new("UICorner"),
+	UIGradient_26 = Instance.new("UIGradient"),
+	TextButton_27 = Instance.new("TextButton"),
+	UICorner_30 = Instance.new("UICorner"),
+	UIGradient_27 = Instance.new("UIGradient"),
+	TextButton_28 = Instance.new("TextButton"),
+	UICorner_31 = Instance.new("UICorner"),
+	UIGradient_28 = Instance.new("UIGradient"),
+	TextButton_29 = Instance.new("TextButton"),
+	UICorner_32 = Instance.new("UICorner"),
+	UIGradient_29 = Instance.new("UIGradient"),
+	TextButton_30 = Instance.new("TextButton"),
+	UICorner_33 = Instance.new("UICorner"),
+	UIGradient_30 = Instance.new("UIGradient"),
+	TextButton_31 = Instance.new("TextButton"),
+	UICorner_34 = Instance.new("UICorner"),
+	UIGradient_31 = Instance.new("UIGradient"),
+	TextButton_32 = Instance.new("TextButton"),
+	UICorner_35 = Instance.new("UICorner"),
+	UIGradient_32 = Instance.new("UIGradient"),
+	TextButton_33 = Instance.new("TextButton"),
+	UICorner_36 = Instance.new("UICorner"),
+	UIGradient_33 = Instance.new("UIGradient"),
+	TextButton_34 = Instance.new("TextButton"),
+	UICorner_37 = Instance.new("UICorner"),
+	UIGradient_34 = Instance.new("UIGradient"),
+	TextButton_35 = Instance.new("TextButton"),
+	UICorner_38 = Instance.new("UICorner"),
+	UIGradient_35 = Instance.new("UIGradient"),
+	TextButton_36 = Instance.new("TextButton"),
+	UICorner_39 = Instance.new("UICorner"),
+	UIGradient_36 = Instance.new("UIGradient"),
+	TextButton_37 = Instance.new("TextButton"),
+	UICorner_40 = Instance.new("UICorner"),
+	UIGradient_37 = Instance.new("UIGradient"),
+	TextButton_38 = Instance.new("TextButton"),
+	UICorner_41 = Instance.new("UICorner"),
+	UIGradient_38 = Instance.new("UIGradient"),
+	TextButton_39 = Instance.new("TextButton"),
+	UICorner_42 = Instance.new("UICorner"),
+	UIGradient_39 = Instance.new("UIGradient"),
+	TextButton_40 = Instance.new("TextButton"),
+	UICorner_43 = Instance.new("UICorner"),
+	UIGradient_40 = Instance.new("UIGradient"),
+	TextButton_41 = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	UIGradient_41 = Instance.new("UIGradient"),
+	TextButton_42 = Instance.new("TextButton"),
+	UICorner_45 = Instance.new("UICorner"),
+	UIGradient_42 = Instance.new("UIGradient"),
+	TextButton_43 = Instance.new("TextButton"),
+	UICorner_46 = Instance.new("UICorner"),
+	UIGradient_43 = Instance.new("UIGradient"),
+	TextButton_44 = Instance.new("TextButton"),
+	UICorner_47 = Instance.new("UICorner"),
+	UIGradient_44 = Instance.new("UIGradient"),
+	TextButton_45 = Instance.new("TextButton"),
+	UICorner_48 = Instance.new("UICorner"),
+	UIGradient_45 = Instance.new("UIGradient"),
+	TextButton_46 = Instance.new("TextButton"),
+	UICorner_49 = Instance.new("UICorner"),
+	UIGradient_46 = Instance.new("UIGradient"),
+	TextButton_47 = Instance.new("TextButton"),
+	UICorner_50 = Instance.new("UICorner"),
+	UIGradient_47 = Instance.new("UIGradient"),
+	TextButton_48 = Instance.new("TextButton"),
+	UICorner_51 = Instance.new("UICorner"),
+	UIGradient_48 = Instance.new("UIGradient"),
+	TextButton_49 = Instance.new("TextButton"),
+	UICorner_52 = Instance.new("UICorner"),
+	UIGradient_49 = Instance.new("UIGradient"),
+	TextButton_50 = Instance.new("TextButton"),
+	UICorner_53 = Instance.new("UICorner"),
+	UIGradient_50 = Instance.new("UIGradient"),
+	TextButton_51 = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	UIGradient_51 = Instance.new("UIGradient"),
+	TextButton_52 = Instance.new("TextButton"),
+	UICorner_55 = Instance.new("UICorner"),
+	UIGradient_52 = Instance.new("UIGradient"),
+	TextButton_53 = Instance.new("TextButton"),
+	UICorner_56 = Instance.new("UICorner"),
+	UIGradient_53 = Instance.new("UIGradient"),
+	TextButton_54 = Instance.new("TextButton"),
+	UICorner_57 = Instance.new("UICorner"),
+	UIGradient_54 = Instance.new("UIGradient"),
+	TextButton_55 = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	UIGradient_55 = Instance.new("UIGradient"),
+	TextButton_56 = Instance.new("TextButton"),
+	UICorner_59 = Instance.new("UICorner"),
+	UIGradient_56 = Instance.new("UIGradient"),
+	TextButton_57 = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	UIGradient_57 = Instance.new("UIGradient"),
+	TextButton_58 = Instance.new("TextButton"),
+	UICorner_61 = Instance.new("UICorner"),
+	UIGradient_58 = Instance.new("UIGradient"),
+	TextButton_59 = Instance.new("TextButton"),
+	UICorner_62 = Instance.new("UICorner"),
+	UIGradient_59 = Instance.new("UIGradient"),
+	TextButton_60 = Instance.new("TextButton"),
+	UICorner_63 = Instance.new("UICorner"),
+	UIGradient_60 = Instance.new("UIGradient"),
+	TextButton_61 = Instance.new("TextButton"),
+	UICorner_64 = Instance.new("UICorner"),
+	UIGradient_61 = Instance.new("UIGradient"),
+	TextButton_62 = Instance.new("TextButton"),
+	UICorner_65 = Instance.new("UICorner"),
+	UIGradient_62 = Instance.new("UIGradient"),
+	TextButton_63 = Instance.new("TextButton"),
+	UICorner_66 = Instance.new("UICorner"),
+	UIGradient_63 = Instance.new("UIGradient"),
+	TextButton_64 = Instance.new("TextButton"),
+	UICorner_67 = Instance.new("UICorner"),
+	UIGradient_64 = Instance.new("UIGradient"),
+	TextButton_65 = Instance.new("TextButton"),
+	UICorner_68 = Instance.new("UICorner"),
+	UIGradient_65 = Instance.new("UIGradient"),
+	TextButton_66 = Instance.new("TextButton"),
+	UICorner_69 = Instance.new("UICorner"),
+	UIGradient_66 = Instance.new("UIGradient"),
+	TextButton_67 = Instance.new("TextButton"),
+	UICorner_70 = Instance.new("UICorner"),
+	UIGradient_67 = Instance.new("UIGradient"),
+	TextButton_68 = Instance.new("TextButton"),
+	UICorner_71 = Instance.new("UICorner"),
+	UIGradient_68 = Instance.new("UIGradient"),
+	TextButton_69 = Instance.new("TextButton"),
+	UICorner_72 = Instance.new("UICorner"),
+	UIGradient_69 = Instance.new("UIGradient"),
+	TextButton_70 = Instance.new("TextButton"),
+	UICorner_73 = Instance.new("UICorner"),
+	UIGradient_70 = Instance.new("UIGradient"),
+	TextButton_71 = Instance.new("TextButton"),
+	UICorner_74 = Instance.new("UICorner"),
+	UIGradient_71 = Instance.new("UIGradient"),
+	TextButton_72 = Instance.new("TextButton"),
+	UICorner_75 = Instance.new("UICorner"),
+	UIGradient_72 = Instance.new("UIGradient"),
+	TextButton_73 = Instance.new("TextButton"),
+	UICorner_76 = Instance.new("UICorner"),
+	UIGradient_73 = Instance.new("UIGradient"),
+	TextButton_74 = Instance.new("TextButton"),
+	UICorner_77 = Instance.new("UICorner"),
+	UIGradient_74 = Instance.new("UIGradient"),
+	TextButton_75 = Instance.new("TextButton"),
+	UICorner_78 = Instance.new("UICorner"),
+	UIGradient_75 = Instance.new("UIGradient"),
+	TextButton_76 = Instance.new("TextButton"),
+	UICorner_79 = Instance.new("UICorner"),
+	UIGradient_76 = Instance.new("UIGradient"),
+	TextButton_77 = Instance.new("TextButton"),
+	UICorner_80 = Instance.new("UICorner"),
+	UIGradient_77 = Instance.new("UIGradient"),
+	TextButton_78 = Instance.new("TextButton"),
+	UICorner_81 = Instance.new("UICorner"),
+	UIGradient_78 = Instance.new("UIGradient"),
+	TextButton_79 = Instance.new("TextButton"),
+	UICorner_82 = Instance.new("UICorner"),
+	UIGradient_79 = Instance.new("UIGradient"),
+	TextButton_80 = Instance.new("TextButton"),
+	UICorner_83 = Instance.new("UICorner"),
+	UIGradient_80 = Instance.new("UIGradient"),
+	TextButton_81 = Instance.new("TextButton"),
+	UICorner_84 = Instance.new("UICorner"),
+	UIGradient_81 = Instance.new("UIGradient"),
+	TextButton_82 = Instance.new("TextButton"),
+	UICorner_85 = Instance.new("UICorner"),
+	UIGradient_82 = Instance.new("UIGradient"),
+	TextButton_83 = Instance.new("TextButton"),
+	UICorner_86 = Instance.new("UICorner"),
+	UIGradient_83 = Instance.new("UIGradient"),
+	TextButton_84 = Instance.new("TextButton"),
+	UICorner_87 = Instance.new("UICorner"),
+	UIGradient_84 = Instance.new("UIGradient"),
+	TextButton_85 = Instance.new("TextButton"),
+	UICorner_88 = Instance.new("UICorner"),
+	UIGradient_85 = Instance.new("UIGradient"),
+	TextButton_86 = Instance.new("TextButton"),
+	UICorner_89 = Instance.new("UICorner"),
+	UIGradient_86 = Instance.new("UIGradient"),
+	TextButton_87 = Instance.new("TextButton"),
+	UICorner_90 = Instance.new("UICorner"),
+	UIGradient_87 = Instance.new("UIGradient"),
+	TextButton_88 = Instance.new("TextButton"),
+	UICorner_91 = Instance.new("UICorner"),
+	UIGradient_88 = Instance.new("UIGradient"),
+	TextButton_89 = Instance.new("TextButton"),
+	UICorner_92 = Instance.new("UICorner"),
+	UIGradient_89 = Instance.new("UIGradient"),
+	TextButton_90 = Instance.new("TextButton"),
+	UICorner_93 = Instance.new("UICorner"),
+	UIGradient_90 = Instance.new("UIGradient"),
+	TextButton_91 = Instance.new("TextButton"),
+	UICorner_94 = Instance.new("UICorner"),
+	UIGradient_91 = Instance.new("UIGradient"),
+	TextButton_92 = Instance.new("TextButton"),
+	UICorner_95 = Instance.new("UICorner"),
+	UIGradient_92 = Instance.new("UIGradient"),
+	TextButton_93 = Instance.new("TextButton"),
+	UICorner_96 = Instance.new("UICorner"),
+	UIGradient_93 = Instance.new("UIGradient"),
+	TextButton_94 = Instance.new("TextButton"),
+	UICorner_97 = Instance.new("UICorner"),
+	UIGradient_94 = Instance.new("UIGradient"),
+	TextButton_95 = Instance.new("TextButton"),
+	UICorner_98 = Instance.new("UICorner"),
+	UIGradient_95 = Instance.new("UIGradient"),
+	TextButton_96 = Instance.new("TextButton"),
+	UICorner_99 = Instance.new("UICorner"),
+	UIGradient_96 = Instance.new("UIGradient"),
+	TextButton_97 = Instance.new("TextButton"),
+	UICorner_100 = Instance.new("UICorner"),
+	UIGradient_97 = Instance.new("UIGradient"),
+	TextButton_98 = Instance.new("TextButton"),
+	UICorner_101 = Instance.new("UICorner"),
+	UIGradient_98 = Instance.new("UIGradient"),
+	TextBox = Instance.new("TextBox"),
+	UICorner_102 = Instance.new("UICorner"),
+	X = Instance.new("TextButton"),
+	UICorner_103 = Instance.new("UICorner"),
+	Open = Instance.new("TextButton"),
+	UICorner_104 = Instance.new("UICorner"),
+	UIGradient_99 = Instance.new("UIGradient"),
+}
+
+--System
+
+ScreenGui.ScreenGui.Parent = game.CoreGui
+
+ScreenGui.Frame.Parent = ScreenGui.ScreenGui
+ScreenGui.Frame.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+ScreenGui.Frame.Position = UDim2.new(0.80647707, 0, 0.485809684, 0)
+ScreenGui.Frame.Size = UDim2.new(0, 239, 0, 301)
+ScreenGui.Frame.Active = true
+ScreenGui.Frame.Draggable = true
+
+ScreenGui.Label.Name = "Label"
+ScreenGui.Label.Parent = ScreenGui.Frame
+ScreenGui.Label.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+ScreenGui.Label.Size = UDim2.new(0, 239, 0, 26)
+ScreenGui.Label.Font = Enum.Font.SourceSans
+ScreenGui.Label.Text = "Yv Admin v1.9"
+ScreenGui.Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Label.TextSize = 20.000
+ScreenGui.Label.TextWrapped = true
+
+ScreenGui.UICorner.Parent = ScreenGui.Label
+
+ScreenGui.UICorner_2.Parent = ScreenGui.Frame
+
+ScreenGui.ScrollingFrame.Parent = ScreenGui.Frame
+ScreenGui.ScrollingFrame.Active = true
+ScreenGui.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(184, 185, 255)
+ScreenGui.ScrollingFrame.Position = UDim2.new(0, 0, 0.159468442, 0)
+ScreenGui.ScrollingFrame.Size = UDim2.new(0, 239, 0, 246)
+ScreenGui.ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1000, 0)
+
+ScreenGui.UICorner_3.Parent = ScreenGui.ScrollingFrame
+
+ScreenGui.TextButton.Name = "-"
+ScreenGui.TextButton.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton.Font = Enum.Font.SourceSans
+ScreenGui.TextButton.Text = "infjump"
+ScreenGui.TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton.TextScaled = true
+ScreenGui.TextButton.TextSize = 14.000
+ScreenGui.TextButton.TextWrapped = true
+ScreenGui.TextButton.MouseButton1Down:connect(function()
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")		
+	end)
+end)
+
+ScreenGui.UICorner_4.Parent = ScreenGui.TextButton
+
+ScreenGui.UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient.Parent = ScreenGui.TextButton
+
+ScreenGui.UIListLayout.Parent = ScreenGui.ScrollingFrame
+ScreenGui.UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+ScreenGui.TextButton_2.Name = "-"
+ScreenGui.TextButton_2.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_2.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_2.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_2.Text = "infinitejump"
+ScreenGui.TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_2.TextScaled = true
+ScreenGui.TextButton_2.TextSize = 14.000
+ScreenGui.TextButton_2.TextWrapped = true
+ScreenGui.TextButton_2.MouseButton1Down:connect(function()
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")		
+	end)
+end)
+
+ScreenGui.UICorner_5.Parent = ScreenGui.TextButton_2
+
+ScreenGui.UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_2.Parent = ScreenGui.TextButton_2
+
+ScreenGui.TextButton_3.Name = "-"
+ScreenGui.TextButton_3.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_3.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_3.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_3.Text = "xray"
+ScreenGui.TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_3.TextScaled = true
+ScreenGui.TextButton_3.TextSize = 14.000
+ScreenGui.TextButton_3.TextWrapped = true
+ScreenGui.TextButton_3.MouseButton1Down:connect(function()
+	-- Caeso
+
+	local t=false
+
+	local function scan(z,t)
+		for _,i in pairs(z:GetChildren()) do
+			if i:IsA("BasePart") and not i.Parent:FindFirstChild("Humanoid") and not i.Parent.Parent:FindFirstChild("Humanoid") then
+				i.LocalTransparencyModifier=t
+			end
+
+			scan(i,t)
+		end
+	end
+
+	function x(v)
+		if v then
+			scan(workspace,0.5)
+		else
+			scan(workspace,0)
+		end
+	end
+
+	game:GetService("UserInputService").InputBegan:connect(function (input)
+		if input.UserInputType==Enum.UserInputType.Keyboard and input.KeyCode==Enum.KeyCode.X then
+			t=not t
+			x(t)
+		end
+	end)
+end)
+
+ScreenGui.UICorner_6.Parent = ScreenGui.TextButton_3
+
+ScreenGui.UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_3.Parent = ScreenGui.TextButton_3
+
+ScreenGui.TextButton_4.Name = "-"
+ScreenGui.TextButton_4.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_4.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_4.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_4.Text = "noclip"
+ScreenGui.TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_4.TextScaled = true
+ScreenGui.TextButton_4.TextSize = 14.000
+ScreenGui.TextButton_4.TextWrapped = true
+ScreenGui.TextButton_4.MouseButton1Down:connect(function()
+	--[[ Press "N" to toggle noclip]]
+	noclip = false
+	game:GetService('RunService').Stepped:connect(function()
+		if noclip then
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	plr = game.Players.LocalPlayer
+	mouse = plr:GetMouse()
+	mouse.KeyDown:connect(function(key)
+
+		if key == "n" then
+			noclip = not noclip
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	print('Loaded')
+	print('Press "N" to noclip')
+end)
+
+ScreenGui.UICorner_7.Parent = ScreenGui.TextButton_4
+
+ScreenGui.UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_4.Parent = ScreenGui.TextButton_4
+
+ScreenGui.TextButton_5.Name = "-"
+ScreenGui.TextButton_5.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_5.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_5.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_5.Text = "fly"
+ScreenGui.TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_5.TextScaled = true
+ScreenGui.TextButton_5.TextSize = 14.000
+ScreenGui.TextButton_5.TextWrapped = true
+ScreenGui.TextButton_5.MouseButton1Down:connect(function()
+	repeat wait() 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("HumanoidRootPart") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+	local mouse = game.Players.LocalPlayer:GetMouse() 
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer 
+	local torso = plr.Character.HumanoidRootPart 
+	local flying = true
+	local deb = true 
+	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local maxspeed = 50 
+	local speed = 0 
+
+	function Fly() 
+		local bg = Instance.new("BodyGyro", torso) 
+		bg.P = 9e4 
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+		bg.cframe = torso.CFrame 
+		local bv = Instance.new("BodyVelocity", torso) 
+		bv.velocity = Vector3.new(0,0.1,0) 
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+		repeat wait() 
+			plr.Character.Humanoid.PlatformStand = true 
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+				speed = speed+.5+(speed/maxspeed) 
+				if speed > maxspeed then 
+					speed = maxspeed 
+				end 
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+				speed = speed-1 
+				if speed < 0 then 
+					speed = 0 
+				end 
+			end 
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+			else 
+				bv.velocity = Vector3.new(0,0.1,0) 
+			end 
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+		until not flying 
+		ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		speed = 0 
+		bg:Destroy() 
+		bv:Destroy() 
+		plr.Character.Humanoid.PlatformStand = false 
+	end 
+	mouse.KeyDown:connect(function(key) 
+		if key:lower() == "e" then 
+			if flying then flying = false 
+			else 
+				flying = true 
+				Fly() 
+			end 
+		elseif key:lower() == "w" then 
+			ctrl.f = 1 
+		elseif key:lower() == "s" then 
+			ctrl.b = -1 
+		elseif key:lower() == "a" then 
+			ctrl.l = -1 
+		elseif key:lower() == "d" then 
+			ctrl.r = 1 
+		end 
+	end) 
+	mouse.KeyUp:connect(function(key) 
+		if key:lower() == "w" then 
+			ctrl.f = 0 
+		elseif key:lower() == "s" then 
+			ctrl.b = 0 
+		elseif key:lower() == "a" then 
+			ctrl.l = 0 
+		elseif key:lower() == "d" then 
+			ctrl.r = 0 
+		end 
+	end)
+	Fly()
+end)
+
+ScreenGui.UICorner_8.Parent = ScreenGui.TextButton_5
+
+ScreenGui.UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_5.Parent = ScreenGui.TextButton_5
+
+ScreenGui.TextButton_6.Name = "-"
+ScreenGui.TextButton_6.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_6.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_6.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_6.Text = "Speed and Jumppower"
+ScreenGui.TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_6.TextScaled = true
+ScreenGui.TextButton_6.TextSize = 14.000
+ScreenGui.TextButton_6.TextWrapped = true
+ScreenGui.TextButton_6.MouseButton1Down:connect(function()
+	-- Made By Yv_Dev
+
+
+
+
+	local Hacks = Instance.new("ScreenGui")
+	local Background = Instance.new("Frame")
+	local Walkspeedlb = Instance.new("TextLabel")
+	local jumppowerlb = Instance.new("TextLabel")
+	local speed = Instance.new("TextLabel")
+	local jump = Instance.new("TextLabel")
+	local WalkBox = Instance.new("TextBox")
+	local JumpBox = Instance.new("TextBox")
+	local WalkSumbit = Instance.new("TextButton")
+	local JumpSumbit = Instance.new("TextButton")
+	local TextLabel = Instance.new("TextLabel")
+	local Open = Instance.new("TextButton")
+	--Properties:
+	Hacks.Name = "Hacks"
+	Hacks.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Hacks.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Background.Name = "Background"
+	Background.Parent = Hacks
+	Background.BackgroundColor3 = Color3.new(0, 0, 0)
+	Background.BackgroundTransparency = 0.40000000596046
+	Background.Position = UDim2.new(0.109510086, 0, 0.381112367, 0)
+	Background.Size = UDim2.new(0.222958699, 0, 0.476163864, 0)
+	Background.Visible = false
+
+	Walkspeedlb.Name = "Walkspeedlb"
+	Walkspeedlb.Parent = Background
+	Walkspeedlb.BackgroundColor3 = Color3.new(1, 1, 1)
+	Walkspeedlb.BackgroundTransparency = 1
+	Walkspeedlb.Position = UDim2.new(0, 0, 0.122436516, 0)
+	Walkspeedlb.Size = UDim2.new(0.999999762, 0, 0.100000001, 0)
+	Walkspeedlb.Visible = false
+	Walkspeedlb.Font = Enum.Font.SourceSans
+	Walkspeedlb.Text = "WalkSpeed:"
+	Walkspeedlb.TextColor3 = Color3.new(1, 1, 1)
+	Walkspeedlb.TextScaled = true
+	Walkspeedlb.TextSize = 14
+	Walkspeedlb.TextWrapped = true
+	Walkspeedlb.TextXAlignment = Enum.TextXAlignment.Left
+
+	jumppowerlb.Name = "jumppowerlb"
+	jumppowerlb.Parent = Background
+	jumppowerlb.BackgroundColor3 = Color3.new(1, 1, 1)
+	jumppowerlb.BackgroundTransparency = 1
+	jumppowerlb.Position = UDim2.new(0, 0, 0.2203857, 0)
+	jumppowerlb.Size = UDim2.new(0.999999762, 0, 0.100000001, 0)
+	jumppowerlb.Visible = false
+	jumppowerlb.Font = Enum.Font.SourceSans
+	jumppowerlb.Text = "Jump Power:"
+	jumppowerlb.TextColor3 = Color3.new(1, 1, 1)
+	jumppowerlb.TextScaled = true
+	jumppowerlb.TextSize = 14
+	jumppowerlb.TextWrapped = true
+	jumppowerlb.TextXAlignment = Enum.TextXAlignment.Left
+
+	speed.Name = "speed"
+	speed.Parent = Background
+	speed.BackgroundColor3 = Color3.new(1, 1, 1)
+	speed.BackgroundTransparency = 1
+	speed.Position = UDim2.new(0.577337444, 0, 0.122436516, 0)
+	speed.Size = UDim2.new(0.422662586, 0, 0.100000001, 0)
+	speed.Visible = false
+	speed.Font = Enum.Font.SourceSans
+	speed.Text = "Default"
+	speed.TextColor3 = Color3.new(1, 1, 1)
+	speed.TextScaled = true
+	speed.TextSize = 14
+	speed.TextWrapped = true
+
+	jump.Name = "jump"
+	jump.Parent = Background
+	jump.BackgroundColor3 = Color3.new(1, 1, 1)
+	jump.BackgroundTransparency = 1
+	jump.Position = UDim2.new(0.659198582, 0, 0.22038573, 0)
+	jump.Size = UDim2.new(0.340801179, 0, 0.100000001, 0)
+	jump.Visible = false
+	jump.Font = Enum.Font.SourceSans
+	jump.Text = "Default"
+	jump.TextColor3 = Color3.new(1, 1, 1)
+	jump.TextScaled = true
+	jump.TextSize = 14
+	jump.TextWrapped = true
+
+	WalkBox.Name = "WalkBox"
+	WalkBox.Parent = Background
+	WalkBox.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	WalkBox.BackgroundTransparency = 0.5
+	WalkBox.BorderSizePixel = 0
+	WalkBox.Position = UDim2.new(0, 0, 0.174571082, 0)
+	WalkBox.Size = UDim2.new(0.999999881, 0, 0.187969327, 0)
+	WalkBox.Font = Enum.Font.SourceSans
+	WalkBox.PlaceholderColor3 = Color3.new(1, 1, 1)
+	WalkBox.PlaceholderText = "Insert a number for walk speed"
+	WalkBox.Text = ""
+	WalkBox.TextColor3 = Color3.new(1, 1, 1)
+	WalkBox.TextScaled = true
+	WalkBox.TextSize = 14
+	WalkBox.TextWrapped = true
+
+	JumpBox.Name = "JumpBox"
+	JumpBox.Parent = Background
+	JumpBox.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	JumpBox.BackgroundTransparency = 0.5
+	JumpBox.BorderSizePixel = 0
+	JumpBox.Position = UDim2.new(0.00430848775, 0, 0.6280002, 0)
+	JumpBox.Size = UDim2.new(0.999999881, 0, 0.190235019, 0)
+	JumpBox.Font = Enum.Font.SourceSans
+	JumpBox.PlaceholderColor3 = Color3.new(1, 1, 1)
+	JumpBox.PlaceholderText = "Insert a number for jump power"
+	JumpBox.Text = ""
+	JumpBox.TextColor3 = Color3.new(1, 1, 1)
+	JumpBox.TextScaled = true
+	JumpBox.TextSize = 14
+	JumpBox.TextWrapped = true
+
+	WalkSumbit.Name = "WalkSumbit"
+	WalkSumbit.Parent = Background
+	WalkSumbit.BackgroundColor3 = Color3.new(0.0980392, 1, 0)
+	WalkSumbit.Position = UDim2.new(0.00430848775, 0, 0.402936816, 0)
+	WalkSumbit.Size = UDim2.new(0.995691121, 0, 0.155913889, 0)
+	WalkSumbit.Font = Enum.Font.SourceSans
+	WalkSumbit.Text = "Set"
+	WalkSumbit.TextColor3 = Color3.new(0, 0, 0)
+	WalkSumbit.TextScaled = true
+	WalkSumbit.TextSize = 14
+	WalkSumbit.TextWrapped = true
+
+	JumpSumbit.Name = "JumpSumbit"
+	JumpSumbit.Parent = Background
+	JumpSumbit.BackgroundColor3 = Color3.new(0.0980392, 1, 0)
+	JumpSumbit.Position = UDim2.new(0, 0, 0.84706986, 0)
+	JumpSumbit.Size = UDim2.new(0.995691121, 0, 0.151039571, 0)
+	JumpSumbit.Font = Enum.Font.SourceSans
+	JumpSumbit.Text = "Set"
+	JumpSumbit.TextColor3 = Color3.new(0, 0, 0)
+	JumpSumbit.TextScaled = true
+	JumpSumbit.TextSize = 14
+	JumpSumbit.TextWrapped = true
+
+	TextLabel.Parent = Background
+	TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+	TextLabel.BackgroundTransparency = 1
+	TextLabel.Size = UDim2.new(0.995690882, 0, 0.135462731, 0)
+	TextLabel.Font = Enum.Font.SourceSans
+	TextLabel.Text = "Made By Yv_Dev"
+	TextLabel.TextColor3 = Color3.new(1, 1, 1)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14
+	TextLabel.TextWrapped = true
+
+	Open.Name = "Open"
+	Open.Parent = Hacks
+	Open.BackgroundColor3 = Color3.new(0, 0, 0)
+	Open.BackgroundTransparency = 0.44999998807907
+	Open.Position = UDim2.new(0, 0, 0.756052136, 0)
+	Open.Size = UDim2.new(0.100000001, 0, 0.0553072728, 0)
+	Open.Font = Enum.Font.SourceSans
+	Open.Text = "Open"
+	Open.TextColor3 = Color3.new(1, 1, 1)
+	Open.TextScaled = true
+	Open.TextSize = 14
+	Open.TextWrapped = true
+	-- Scripts:
+
+	local playername = game.Players.LocalPlayer.Name
+	local player = game.Players.LocalPlayer
+	local character = game.Workspace[playername]
+	local Background = player.PlayerGui.Hacks.Background
+
+	Open.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.PlayerGui.Hacks.Background.Visible == true then
+			game.Players.LocalPlayer.PlayerGui.Hacks.Open.Text = "Open"
+			game.Players.LocalPlayer.PlayerGui.Hacks.Background.Visible = false
+		else
+			game.Players.LocalPlayer.PlayerGui.Hacks.Open.Text = "Close"
+			game.Players.LocalPlayer.PlayerGui.Hacks.Background.Visible = true
+		end
+	end)
+
+	WalkSumbit.MouseButton1Click:connect(function()
+		character.Humanoid.WalkSpeed = tostring(Background.WalkBox.Text)
+	end)
+
+	JumpSumbit.MouseButton1Click:connect(function()
+		character.Humanoid.JumpPower = tostring(Background.JumpBox.Text)
+	end)
+	Print("Cheats Got Executed")
+end)
+
+ScreenGui.UICorner_9.Parent = ScreenGui.TextButton_6
+
+ScreenGui.UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_6.Parent = ScreenGui.TextButton_6
+
+ScreenGui.TextButton_7.Name = "-"
+ScreenGui.TextButton_7.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_7.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_7.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_7.Text = "r6 HeadLess"
+ScreenGui.TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_7.TextScaled = true
+ScreenGui.TextButton_7.TextSize = 14.000
+ScreenGui.TextButton_7.TextWrapped = true
+ScreenGui.TextButton_7.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Ba8y2pni", true))()
+end)
+
+ScreenGui.UICorner_10.Parent = ScreenGui.TextButton_7
+
+ScreenGui.UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_7.Parent = ScreenGui.TextButton_7
+
+ScreenGui.TextButton_8.Name = "-"
+ScreenGui.TextButton_8.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_8.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_8.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_8.Text = "r15 HeadLess"
+ScreenGui.TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_8.TextScaled = true
+ScreenGui.TextButton_8.TextSize = 14.000
+ScreenGui.TextButton_8.TextWrapped = true
+ScreenGui.TextButton_8.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Wir38nKB", true))()
+end)
+
+ScreenGui.UICorner_11.Parent = ScreenGui.TextButton_8
+
+ScreenGui.UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_8.Parent = ScreenGui.TextButton_8
+
+ScreenGui.TextButton_9.Name = "-"
+ScreenGui.TextButton_9.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_9.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_9.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_9.Text = "CMD - X"
+ScreenGui.TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_9.TextScaled = true
+ScreenGui.TextButton_9.TextSize = 14.000
+ScreenGui.TextButton_9.TextWrapped = true
+ScreenGui.TextButton_9.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+ScreenGui.UICorner_12.Parent = ScreenGui.TextButton_9
+
+ScreenGui.UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_9.Parent = ScreenGui.TextButton_9
+
+ScreenGui.TextButton_10.Name = "-"
+ScreenGui.TextButton_10.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_10.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_10.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_10.Text = "ESP"
+ScreenGui.TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_10.TextScaled = true
+ScreenGui.TextButton_10.TextSize = 14.000
+ScreenGui.TextButton_10.TextWrapped = true
+ScreenGui.TextButton_10.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Fkc7BzCC", true))()
+end)
+
+ScreenGui.UICorner_13.Parent = ScreenGui.TextButton_10
+
+ScreenGui.UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_10.Parent = ScreenGui.TextButton_10
+
+ScreenGui.TextButton_11.Name = "-"
+ScreenGui.TextButton_11.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_11.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_11.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_11.Text = "r15 Animations"
+ScreenGui.TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_11.TextScaled = true
+ScreenGui.TextButton_11.TextSize = 14.000
+ScreenGui.TextButton_11.TextWrapped = true
+ScreenGui.TextButton_11.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+end)
+
+ScreenGui.UICorner_14.Parent = ScreenGui.TextButton_11
+
+ScreenGui.UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_11.Parent = ScreenGui.TextButton_11
+
+ScreenGui.TextButton_12.Name = "-"
+ScreenGui.TextButton_12.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_12.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_12.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_12.Text = "r15 Emotes"
+ScreenGui.TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_12.TextScaled = true
+ScreenGui.TextButton_12.TextSize = 14.000
+ScreenGui.TextButton_12.TextWrapped = true
+ScreenGui.TextButton_12.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DjsEQMxQ"))()
+end)
+
+ScreenGui.UICorner_15.Parent = ScreenGui.TextButton_12
+
+ScreenGui.UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_12.Parent = ScreenGui.TextButton_12
+
+ScreenGui.TextButton_13.Name = "-"
+ScreenGui.TextButton_13.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_13.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_13.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_13.Text = "2) r15 Animations"
+ScreenGui.TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_13.TextScaled = true
+ScreenGui.TextButton_13.TextSize = 14.000
+ScreenGui.TextButton_13.TextWrapped = true
+ScreenGui.TextButton_13.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YB4YFrj2", true))()
+end)
+
+ScreenGui.UICorner_16.Parent = ScreenGui.TextButton_13
+
+ScreenGui.UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_13.Parent = ScreenGui.TextButton_13
+
+ScreenGui.TextButton_14.Name = "-"
+ScreenGui.TextButton_14.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_14.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_14.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_14.Text = "Infinite Yield"
+ScreenGui.TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_14.TextScaled = true
+ScreenGui.TextButton_14.TextSize = 14.000
+ScreenGui.TextButton_14.TextWrapped = true
+ScreenGui.TextButton_14.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+ScreenGui.UICorner_17.Parent = ScreenGui.TextButton_14
+
+ScreenGui.UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_14.Parent = ScreenGui.TextButton_14
+
+ScreenGui.TextButton_15.Name = "-"
+ScreenGui.TextButton_15.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_15.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_15.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_15.Text = "r15 HeadGiant"
+ScreenGui.TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_15.TextScaled = true
+ScreenGui.TextButton_15.TextSize = 14.000
+ScreenGui.TextButton_15.TextWrapped = true
+ScreenGui.TextButton_15.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/gQrAUdfx", true))()
+end)
+
+ScreenGui.UICorner_18.Parent = ScreenGui.TextButton_15
+
+ScreenGui.UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_15.Parent = ScreenGui.TextButton_15
+
+ScreenGui.TextButton_16.Name = "-"
+ScreenGui.TextButton_16.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_16.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_16.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_16.Text = "v4 DarkDex"
+ScreenGui.TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_16.TextScaled = true
+ScreenGui.TextButton_16.TextSize = 14.000
+ScreenGui.TextButton_16.TextWrapped = true
+ScreenGui.TextButton_16.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+end)
+
+ScreenGui.UICorner_19.Parent = ScreenGui.TextButton_16
+
+ScreenGui.UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_16.Parent = ScreenGui.TextButton_16
+
+ScreenGui.TextButton_17.Name = "-"
+ScreenGui.TextButton_17.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_17.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_17.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_17.Text = "DarkHub"
+ScreenGui.TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_17.TextScaled = true
+ScreenGui.TextButton_17.TextSize = 14.000
+ScreenGui.TextButton_17.TextWrapped = true
+ScreenGui.TextButton_17.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+ScreenGui.UICorner_20.Parent = ScreenGui.TextButton_17
+
+ScreenGui.UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_17.Parent = ScreenGui.TextButton_17
+
+ScreenGui.TextButton_18.Name = "-"
+ScreenGui.TextButton_18.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_18.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_18.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_18.Text = "Take Hat"
+ScreenGui.TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_18.TextScaled = true
+ScreenGui.TextButton_18.TextSize = 14.000
+ScreenGui.TextButton_18.TextWrapped = true
+ScreenGui.TextButton_18.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/exBkZqq4", true))()
+end)
+
+ScreenGui.UICorner_21.Parent = ScreenGui.TextButton_18
+
+ScreenGui.UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_18.Parent = ScreenGui.TextButton_18
+
+ScreenGui.TextButton_19.Name = "-"
+ScreenGui.TextButton_19.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_19.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_19.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_19.Text = "Dev_King Hub"
+ScreenGui.TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_19.TextScaled = true
+ScreenGui.TextButton_19.TextSize = 14.000
+ScreenGui.TextButton_19.TextWrapped = true
+ScreenGui.TextButton_19.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LwCa7jPq", true))()
+end)
+
+ScreenGui.UICorner_22.Parent = ScreenGui.TextButton_19
+
+ScreenGui.UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_19.Parent = ScreenGui.TextButton_19
+
+ScreenGui.TextButton_20.Name = "-"
+ScreenGui.TextButton_20.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_20.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_20.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_20.Text = "OwlHub"
+ScreenGui.TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_20.TextScaled = true
+ScreenGui.TextButton_20.TextSize = 14.000
+ScreenGui.TextButton_20.TextWrapped = true
+ScreenGui.TextButton_20.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt"))()
+end)
+
+ScreenGui.UICorner_23.Parent = ScreenGui.TextButton_20
+
+ScreenGui.UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_20.Parent = ScreenGui.TextButton_20
+
+ScreenGui.TextButton_21.Name = "-"
+ScreenGui.TextButton_21.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_21.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_21.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_21.Text = "remove FPS lag"
+ScreenGui.TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_21.TextScaled = true
+ScreenGui.TextButton_21.TextSize = 14.000
+ScreenGui.TextButton_21.TextWrapped = true
+ScreenGui.TextButton_21.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zL3r1rjS", true))()
+end)
+
+ScreenGui.UICorner_24.Parent = ScreenGui.TextButton_21
+
+ScreenGui.UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_21.Parent = ScreenGui.TextButton_21
+
+ScreenGui.TextButton_22.Name = "-"
+ScreenGui.TextButton_22.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_22.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_22.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_22.Text = "1 Big"
+ScreenGui.TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_22.TextScaled = true
+ScreenGui.TextButton_22.TextSize = 14.000
+ScreenGui.TextButton_22.TextWrapped = true
+ScreenGui.TextButton_22.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uHwjZXSy", true))()
+end)
+
+ScreenGui.UICorner_25.Parent = ScreenGui.TextButton_22
+
+ScreenGui.UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_22.Parent = ScreenGui.TextButton_22
+
+ScreenGui.TextButton_23.Name = "-"
+ScreenGui.TextButton_23.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_23.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_23.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_23.Text = "2 Big"
+ScreenGui.TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_23.TextScaled = true
+ScreenGui.TextButton_23.TextSize = 14.000
+ScreenGui.TextButton_23.TextWrapped = true
+ScreenGui.TextButton_23.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/z4WMW7Gi", true))()
+end)
+
+ScreenGui.UICorner_26.Parent = ScreenGui.TextButton_23
+
+ScreenGui.UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_23.Parent = ScreenGui.TextButton_23
+
+ScreenGui.TextButton_24.Name = "-"
+ScreenGui.TextButton_24.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_24.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_24.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_24.Text = "3 Big"
+ScreenGui.TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_24.TextScaled = true
+ScreenGui.TextButton_24.TextSize = 14.000
+ScreenGui.TextButton_24.TextWrapped = true
+ScreenGui.TextButton_24.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FXv4XFG4", true))()
+end)
+
+ScreenGui.UICorner_27.Parent = ScreenGui.TextButton_24
+
+ScreenGui.UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_24.Parent = ScreenGui.TextButton_24
+
+ScreenGui.TextButton_25.Name = "-"
+ScreenGui.TextButton_25.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_25.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_25.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_25.Text = "4 Big"
+ScreenGui.TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_25.TextScaled = true
+ScreenGui.TextButton_25.TextSize = 14.000
+ScreenGui.TextButton_25.TextWrapped = true
+ScreenGui.TextButton_25.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/fPRermix", true))()
+end)
+
+ScreenGui.UICorner_28.Parent = ScreenGui.TextButton_25
+
+ScreenGui.UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_25.Parent = ScreenGui.TextButton_25
+
+ScreenGui.TextButton_26.Name = "-"
+ScreenGui.TextButton_26.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_26.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_26.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_26.Text = "5 Big"
+ScreenGui.TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_26.TextScaled = true
+ScreenGui.TextButton_26.TextSize = 14.000
+ScreenGui.TextButton_26.TextWrapped = true
+ScreenGui.TextButton_26.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/gQrAUdfx", true))()
+end)
+
+ScreenGui.UICorner_29.Parent = ScreenGui.TextButton_26
+
+ScreenGui.UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_26.Parent = ScreenGui.TextButton_26
+
+ScreenGui.TextButton_27.Name = "-"
+ScreenGui.TextButton_27.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_27.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_27.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_27.Text = "Chat /e invis /e vis"
+ScreenGui.TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_27.TextScaled = true
+ScreenGui.TextButton_27.TextSize = 14.000
+ScreenGui.TextButton_27.TextWrapped = true
+ScreenGui.TextButton_27.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QNGkEEe3", true))()
+end)
+
+ScreenGui.UICorner_30.Parent = ScreenGui.TextButton_27
+
+ScreenGui.UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_27.Parent = ScreenGui.TextButton_27
+
+ScreenGui.TextButton_28.Name = "-"
+ScreenGui.TextButton_28.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_28.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_28.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_28.Text = "Z Blink"
+ScreenGui.TextButton_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_28.TextScaled = true
+ScreenGui.TextButton_28.TextSize = 14.000
+ScreenGui.TextButton_28.TextWrapped = true
+ScreenGui.TextButton_28.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/4pc5Wx9E'),true))()
+end)
+
+ScreenGui.UICorner_31.Parent = ScreenGui.TextButton_28
+
+ScreenGui.UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_28.Parent = ScreenGui.TextButton_28
+
+ScreenGui.TextButton_29.Name = "-"
+ScreenGui.TextButton_29.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_29.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_29.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_29.Text = "Anti-AFK"
+ScreenGui.TextButton_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_29.TextScaled = true
+ScreenGui.TextButton_29.TextSize = 14.000
+ScreenGui.TextButton_29.TextWrapped = true
+ScreenGui.TextButton_29.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3RgH4ZsN", true))()
+end)
+
+ScreenGui.UICorner_32.Parent = ScreenGui.TextButton_29
+
+ScreenGui.UIGradient_29.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_29.Parent = ScreenGui.TextButton_29
+
+ScreenGui.TextButton_30.Name = "-"
+ScreenGui.TextButton_30.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_30.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_30.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_30.Text = "r6 Chair"
+ScreenGui.TextButton_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_30.TextScaled = true
+ScreenGui.TextButton_30.TextSize = 14.000
+ScreenGui.TextButton_30.TextWrapped = true
+ScreenGui.TextButton_30.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uN6c86e1", true))()
+end)
+
+ScreenGui.UICorner_33.Parent = ScreenGui.TextButton_30
+
+ScreenGui.UIGradient_30.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_30.Parent = ScreenGui.TextButton_30
+
+ScreenGui.TextButton_31.Name = "-"
+ScreenGui.TextButton_31.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_31.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_31.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_31.Text = "Control Object"
+ScreenGui.TextButton_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_31.TextScaled = true
+ScreenGui.TextButton_31.TextSize = 14.000
+ScreenGui.TextButton_31.TextWrapped = true
+ScreenGui.TextButton_31.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/gNM7USdP", true))()
+end)
+
+ScreenGui.UICorner_34.Parent = ScreenGui.TextButton_31
+
+ScreenGui.UIGradient_31.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_31.Parent = ScreenGui.TextButton_31
+
+ScreenGui.TextButton_32.Name = "-"
+ScreenGui.TextButton_32.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_32.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_32.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_32.Text = "Chat Hax"
+ScreenGui.TextButton_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_32.TextScaled = true
+ScreenGui.TextButton_32.TextSize = 14.000
+ScreenGui.TextButton_32.TextWrapped = true
+ScreenGui.TextButton_32.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://the-shed.dev/scripts/sbp.lua", true))()
+end)
+
+ScreenGui.UICorner_35.Parent = ScreenGui.TextButton_32
+
+ScreenGui.UIGradient_32.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_32.Parent = ScreenGui.TextButton_32
+
+ScreenGui.TextButton_33.Name = "-"
+ScreenGui.TextButton_33.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_33.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_33.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_33.Text = "ball"
+ScreenGui.TextButton_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_33.TextScaled = true
+ScreenGui.TextButton_33.TextSize = 14.000
+ScreenGui.TextButton_33.TextWrapped = true
+ScreenGui.TextButton_33.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/EJskzezp'),true))()
+end)
+
+ScreenGui.UICorner_36.Parent = ScreenGui.TextButton_33
+
+ScreenGui.UIGradient_33.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_33.Parent = ScreenGui.TextButton_33
+
+ScreenGui.TextButton_34.Name = "-"
+ScreenGui.TextButton_34.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_34.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_34.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_34.Text = "Flip Z,X,C"
+ScreenGui.TextButton_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_34.TextScaled = true
+ScreenGui.TextButton_34.TextSize = 14.000
+ScreenGui.TextButton_34.TextWrapped = true
+ScreenGui.TextButton_34.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/crPcd0vq'),true))()
+end)
+
+ScreenGui.UICorner_37.Parent = ScreenGui.TextButton_34
+
+ScreenGui.UIGradient_34.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_34.Parent = ScreenGui.TextButton_34
+
+ScreenGui.TextButton_35.Name = "-"
+ScreenGui.TextButton_35.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_35.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_35.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_35.Text = "r6 Neko"
+ScreenGui.TextButton_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_35.TextScaled = true
+ScreenGui.TextButton_35.TextSize = 14.000
+ScreenGui.TextButton_35.TextWrapped = true
+ScreenGui.TextButton_35.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/YvDev4500/Neko-/main/README.md'),true))()
+end)
+
+ScreenGui.UICorner_38.Parent = ScreenGui.TextButton_35
+
+ScreenGui.UIGradient_35.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_35.Parent = ScreenGui.TextButton_35
+
+ScreenGui.TextButton_36.Name = "-"
+ScreenGui.TextButton_36.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_36.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_36.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_36.Text = "Walk on Walls"
+ScreenGui.TextButton_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_36.TextScaled = true
+ScreenGui.TextButton_36.TextSize = 14.000
+ScreenGui.TextButton_36.TextWrapped = true
+ScreenGui.TextButton_36.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/1jh2FCAx'))()
+end)
+
+ScreenGui.UICorner_39.Parent = ScreenGui.TextButton_36
+
+ScreenGui.UIGradient_36.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_36.Parent = ScreenGui.TextButton_36
+
+ScreenGui.TextButton_37.Name = "-"
+ScreenGui.TextButton_37.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_37.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_37.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_37.Text = "r15 Emoji"
+ScreenGui.TextButton_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_37.TextScaled = true
+ScreenGui.TextButton_37.TextSize = 14.000
+ScreenGui.TextButton_37.TextWrapped = true
+ScreenGui.TextButton_37.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/idk/main/README.md", true))()
+end)
+
+ScreenGui.UICorner_40.Parent = ScreenGui.TextButton_37
+
+ScreenGui.UIGradient_37.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_37.Parent = ScreenGui.TextButton_37
+
+ScreenGui.TextButton_38.Name = "-"
+ScreenGui.TextButton_38.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_38.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_38.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_38.Text = "r6 Emoji"
+ScreenGui.TextButton_38.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_38.TextScaled = true
+ScreenGui.TextButton_38.TextSize = 14.000
+ScreenGui.TextButton_38.TextWrapped = true
+ScreenGui.TextButton_38.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/haha/main/README.md", true))()
+end)
+
+ScreenGui.UICorner_41.Parent = ScreenGui.TextButton_38
+
+ScreenGui.UIGradient_38.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_38.Parent = ScreenGui.TextButton_38
+
+ScreenGui.TextButton_39.Name = "-"
+ScreenGui.TextButton_39.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_39.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_39.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_39.Text = "2 r6 Emoji"
+ScreenGui.TextButton_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_39.TextScaled = true
+ScreenGui.TextButton_39.TextSize = 14.000
+ScreenGui.TextButton_39.TextWrapped = true
+ScreenGui.TextButton_39.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/GGG/main/README.md", true))()
+end)
+
+ScreenGui.UICorner_42.Parent = ScreenGui.TextButton_39
+
+ScreenGui.UIGradient_39.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_39.Parent = ScreenGui.TextButton_39
+
+ScreenGui.TextButton_40.Name = "-"
+ScreenGui.TextButton_40.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_40.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_40.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_40.Text = "3 r6 Emoji"
+ScreenGui.TextButton_40.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_40.TextScaled = true
+ScreenGui.TextButton_40.TextSize = 14.000
+ScreenGui.TextButton_40.TextWrapped = true
+ScreenGui.TextButton_40.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/dev/main/README.md", true))()
+end)
+
+ScreenGui.UICorner_43.Parent = ScreenGui.TextButton_40
+
+ScreenGui.UIGradient_40.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_40.Parent = ScreenGui.TextButton_40
+
+ScreenGui.TextButton_41.Name = "-"
+ScreenGui.TextButton_41.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_41.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_41.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_41.Text = "4 r6 Emoji"
+ScreenGui.TextButton_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_41.TextScaled = true
+ScreenGui.TextButton_41.TextSize = 14.000
+ScreenGui.TextButton_41.TextWrapped = true
+ScreenGui.TextButton_41.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/youjngvn/main/README.md", true))()
+end)
+
+ScreenGui.UICorner_44.Parent = ScreenGui.TextButton_41
+
+ScreenGui.UIGradient_41.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_41.Parent = ScreenGui.TextButton_41
+
+ScreenGui.TextButton_42.Name = "-"
+ScreenGui.TextButton_42.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_42.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_42.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_42.Text = "Gravity Gun"
+ScreenGui.TextButton_42.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_42.TextScaled = true
+ScreenGui.TextButton_42.TextSize = 14.000
+ScreenGui.TextButton_42.TextWrapped = true
+ScreenGui.TextButton_42.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/tgriufduiui/main/README.md"))()
+end)
+
+ScreenGui.UICorner_45.Parent = ScreenGui.TextButton_42
+
+ScreenGui.UIGradient_42.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_42.Parent = ScreenGui.TextButton_42
+
+ScreenGui.TextButton_43.Name = "-"
+ScreenGui.TextButton_43.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_43.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_43.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_43.Text = "tool Invisible"
+ScreenGui.TextButton_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_43.TextScaled = true
+ScreenGui.TextButton_43.TextSize = 14.000
+ScreenGui.TextButton_43.TextWrapped = true
+ScreenGui.TextButton_43.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/bd62009d461c948d466222f4f9333f9420130fbb/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
+end)
+
+ScreenGui.UICorner_46.Parent = ScreenGui.TextButton_43
+
+ScreenGui.UIGradient_43.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_43.Parent = ScreenGui.TextButton_43
+
+ScreenGui.TextButton_44.Name = "-"
+ScreenGui.TextButton_44.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_44.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_44.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_44.Text = "Small"
+ScreenGui.TextButton_44.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_44.TextScaled = true
+ScreenGui.TextButton_44.TextSize = 14.000
+ScreenGui.TextButton_44.TextWrapped = true
+ScreenGui.TextButton_44.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/PRypDeUU", true))()
+end)
+
+ScreenGui.UICorner_47.Parent = ScreenGui.TextButton_44
+
+ScreenGui.UIGradient_44.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_44.Parent = ScreenGui.TextButton_44
+
+ScreenGui.TextButton_45.Name = "-"
+ScreenGui.TextButton_45.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_45.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_45.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_45.Text = "r6 Chilling"
+ScreenGui.TextButton_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_45.TextScaled = true
+ScreenGui.TextButton_45.TextSize = 14.000
+ScreenGui.TextButton_45.TextWrapped = true
+ScreenGui.TextButton_45.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))()
+end)
+
+ScreenGui.UICorner_48.Parent = ScreenGui.TextButton_45
+
+ScreenGui.UIGradient_45.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_45.Parent = ScreenGui.TextButton_45
+
+ScreenGui.TextButton_46.Name = "-"
+ScreenGui.TextButton_46.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_46.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_46.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_46.Text = "Fates Admin"
+ScreenGui.TextButton_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_46.TextScaled = true
+ScreenGui.TextButton_46.TextSize = 14.000
+ScreenGui.TextButton_46.TextWrapped = true
+ScreenGui.TextButton_46.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+ScreenGui.UICorner_49.Parent = ScreenGui.TextButton_46
+
+ScreenGui.UIGradient_46.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_46.Parent = ScreenGui.TextButton_46
+
+ScreenGui.TextButton_47.Name = "-"
+ScreenGui.TextButton_47.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_47.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_47.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_47.Text = "r6 FE Pose"
+ScreenGui.TextButton_47.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_47.TextScaled = true
+ScreenGui.TextButton_47.TextSize = 14.000
+ScreenGui.TextButton_47.TextWrapped = true
+ScreenGui.TextButton_47.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/getrickUwU/main/i'mCat", true))()
+end)
+
+ScreenGui.UICorner_50.Parent = ScreenGui.TextButton_47
+
+ScreenGui.UIGradient_47.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_47.Parent = ScreenGui.TextButton_47
+
+ScreenGui.TextButton_48.Name = "-"
+ScreenGui.TextButton_48.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_48.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_48.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_48.Text = "Hat Spin"
+ScreenGui.TextButton_48.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_48.TextScaled = true
+ScreenGui.TextButton_48.TextSize = 14.000
+ScreenGui.TextButton_48.TextWrapped = true
+ScreenGui.TextButton_48.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
+end)
+
+ScreenGui.UICorner_51.Parent = ScreenGui.TextButton_48
+
+ScreenGui.UIGradient_48.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_48.Parent = ScreenGui.TextButton_48
+
+ScreenGui.TextButton_49.Name = "-"
+ScreenGui.TextButton_49.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_49.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_49.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_49.Text = "Nil"
+ScreenGui.TextButton_49.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_49.TextSize = 14.000
+-------------------------------------------------------------------------------------------- START ON HERE 
+ScreenGui.UICorner_52.Parent = ScreenGui.TextButton_49
+
+ScreenGui.UIGradient_49.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_49.Parent = ScreenGui.TextButton_49
+
+ScreenGui.TextButton_50.Name = "-"
+ScreenGui.TextButton_50.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_50.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_50.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_50.Text = "3"
+ScreenGui.TextButton_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_50.TextSize = 14.000
+
+ScreenGui.UICorner_53.Parent = ScreenGui.TextButton_50
+
+ScreenGui.UIGradient_50.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_50.Parent = ScreenGui.TextButton_50
+
+ScreenGui.TextButton_51.Name = "-"
+ScreenGui.TextButton_51.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_51.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_51.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_51.Text = "3"
+ScreenGui.TextButton_51.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_51.TextSize = 14.000
+
+ScreenGui.UICorner_54.Parent = ScreenGui.TextButton_51
+
+ScreenGui.UIGradient_51.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_51.Parent = ScreenGui.TextButton_51
+
+ScreenGui.TextButton_52.Name = "-"
+ScreenGui.TextButton_52.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_52.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_52.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_52.Text = "3"
+ScreenGui.TextButton_52.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_52.TextSize = 14.000
+
+ScreenGui.UICorner_55.Parent = ScreenGui.TextButton_52
+
+ScreenGui.UIGradient_52.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_52.Parent = ScreenGui.TextButton_52
+
+ScreenGui.TextButton_53.Name = "-"
+ScreenGui.TextButton_53.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_53.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_53.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_53.Text = "3"
+ScreenGui.TextButton_53.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_53.TextSize = 14.000
+
+ScreenGui.UICorner_56.Parent = ScreenGui.TextButton_53
+
+ScreenGui.UIGradient_53.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_53.Parent = ScreenGui.TextButton_53
+
+ScreenGui.TextButton_54.Name = "-"
+ScreenGui.TextButton_54.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_54.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_54.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_54.Text = "3"
+ScreenGui.TextButton_54.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_54.TextSize = 14.000
+
+ScreenGui.UICorner_57.Parent = ScreenGui.TextButton_54
+
+ScreenGui.UIGradient_54.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_54.Parent = ScreenGui.TextButton_54
+
+ScreenGui.TextButton_55.Name = "-"
+ScreenGui.TextButton_55.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_55.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_55.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_55.Text = "3"
+ScreenGui.TextButton_55.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_55.TextSize = 14.000
+
+ScreenGui.UICorner_58.Parent = ScreenGui.TextButton_55
+
+ScreenGui.UIGradient_55.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_55.Parent = ScreenGui.TextButton_55
+
+ScreenGui.TextButton_56.Name = "-"
+ScreenGui.TextButton_56.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_56.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_56.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_56.Text = "3"
+ScreenGui.TextButton_56.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_56.TextSize = 14.000
+
+ScreenGui.UICorner_59.Parent = ScreenGui.TextButton_56
+
+ScreenGui.UIGradient_56.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_56.Parent = ScreenGui.TextButton_56
+
+ScreenGui.TextButton_57.Name = "-"
+ScreenGui.TextButton_57.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_57.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_57.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_57.Text = "3"
+ScreenGui.TextButton_57.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_57.TextSize = 14.000
+
+ScreenGui.UICorner_60.Parent = ScreenGui.TextButton_57
+
+ScreenGui.UIGradient_57.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_57.Parent = ScreenGui.TextButton_57
+
+ScreenGui.TextButton_58.Name = "-"
+ScreenGui.TextButton_58.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_58.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_58.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_58.Text = "3"
+ScreenGui.TextButton_58.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_58.TextSize = 14.000
+
+ScreenGui.UICorner_61.Parent = ScreenGui.TextButton_58
+
+ScreenGui.UIGradient_58.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_58.Parent = ScreenGui.TextButton_58
+
+ScreenGui.TextButton_59.Name = "-"
+ScreenGui.TextButton_59.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_59.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_59.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_59.Text = "3"
+ScreenGui.TextButton_59.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_59.TextSize = 14.000
+
+ScreenGui.UICorner_62.Parent = ScreenGui.TextButton_59
+
+ScreenGui.UIGradient_59.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_59.Parent = ScreenGui.TextButton_59
+
+ScreenGui.TextButton_60.Name = "-"
+ScreenGui.TextButton_60.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_60.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_60.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_60.Text = "3"
+ScreenGui.TextButton_60.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_60.TextSize = 14.000
+
+ScreenGui.UICorner_63.Parent = ScreenGui.TextButton_60
+
+ScreenGui.UIGradient_60.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_60.Parent = ScreenGui.TextButton_60
+
+ScreenGui.TextButton_61.Name = "-"
+ScreenGui.TextButton_61.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_61.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_61.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_61.Text = "3"
+ScreenGui.TextButton_61.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_61.TextSize = 14.000
+
+ScreenGui.UICorner_64.Parent = ScreenGui.TextButton_61
+
+ScreenGui.UIGradient_61.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_61.Parent = ScreenGui.TextButton_61
+
+ScreenGui.TextButton_62.Name = "-"
+ScreenGui.TextButton_62.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_62.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_62.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_62.Text = "3"
+ScreenGui.TextButton_62.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_62.TextSize = 14.000
+
+ScreenGui.UICorner_65.Parent = ScreenGui.TextButton_62
+
+ScreenGui.UIGradient_62.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_62.Parent = ScreenGui.TextButton_62
+
+ScreenGui.TextButton_63.Name = "-"
+ScreenGui.TextButton_63.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_63.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_63.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_63.Text = "3"
+ScreenGui.TextButton_63.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_63.TextSize = 14.000
+
+ScreenGui.UICorner_66.Parent = ScreenGui.TextButton_63
+
+ScreenGui.UIGradient_63.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_63.Parent = ScreenGui.TextButton_63
+
+ScreenGui.TextButton_64.Name = "-"
+ScreenGui.TextButton_64.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_64.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_64.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_64.Text = "3"
+ScreenGui.TextButton_64.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_64.TextSize = 14.000
+
+ScreenGui.UICorner_67.Parent = ScreenGui.TextButton_64
+
+ScreenGui.UIGradient_64.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_64.Parent = ScreenGui.TextButton_64
+
+ScreenGui.TextButton_65.Name = "-"
+ScreenGui.TextButton_65.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_65.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_65.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_65.Text = "3"
+ScreenGui.TextButton_65.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_65.TextSize = 14.000
+
+ScreenGui.UICorner_68.Parent = ScreenGui.TextButton_65
+
+ScreenGui.UIGradient_65.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_65.Parent = ScreenGui.TextButton_65
+
+ScreenGui.TextButton_66.Name = "-"
+ScreenGui.TextButton_66.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_66.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_66.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_66.Text = "3"
+ScreenGui.TextButton_66.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_66.TextSize = 14.000
+
+ScreenGui.UICorner_69.Parent = ScreenGui.TextButton_66
+
+ScreenGui.UIGradient_66.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_66.Parent = ScreenGui.TextButton_66
+
+ScreenGui.TextButton_67.Name = "-"
+ScreenGui.TextButton_67.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_67.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_67.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_67.Text = "3"
+ScreenGui.TextButton_67.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_67.TextSize = 14.000
+
+ScreenGui.UICorner_70.Parent = ScreenGui.TextButton_67
+
+ScreenGui.UIGradient_67.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_67.Parent = ScreenGui.TextButton_67
+
+ScreenGui.TextButton_68.Name = "-"
+ScreenGui.TextButton_68.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_68.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_68.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_68.Text = "3"
+ScreenGui.TextButton_68.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_68.TextSize = 14.000
+
+ScreenGui.UICorner_71.Parent = ScreenGui.TextButton_68
+
+ScreenGui.UIGradient_68.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_68.Parent = ScreenGui.TextButton_68
+
+ScreenGui.TextButton_69.Name = "-"
+ScreenGui.TextButton_69.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_69.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_69.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_69.Text = "3"
+ScreenGui.TextButton_69.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_69.TextSize = 14.000
+
+ScreenGui.UICorner_72.Parent = ScreenGui.TextButton_69
+
+ScreenGui.UIGradient_69.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_69.Parent = ScreenGui.TextButton_69
+
+ScreenGui.TextButton_70.Name = "-"
+ScreenGui.TextButton_70.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_70.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_70.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_70.Text = "3"
+ScreenGui.TextButton_70.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_70.TextSize = 14.000
+
+ScreenGui.UICorner_73.Parent = ScreenGui.TextButton_70
+
+ScreenGui.UIGradient_70.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_70.Parent = ScreenGui.TextButton_70
+
+ScreenGui.TextButton_71.Name = "-"
+ScreenGui.TextButton_71.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_71.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_71.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_71.Text = "3"
+ScreenGui.TextButton_71.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_71.TextSize = 14.000
+
+ScreenGui.UICorner_74.Parent = ScreenGui.TextButton_71
+
+ScreenGui.UIGradient_71.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_71.Parent = ScreenGui.TextButton_71
+
+ScreenGui.TextButton_72.Name = "-"
+ScreenGui.TextButton_72.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_72.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_72.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_72.Text = "3"
+ScreenGui.TextButton_72.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_72.TextSize = 14.000
+
+ScreenGui.UICorner_75.Parent = ScreenGui.TextButton_72
+
+ScreenGui.UIGradient_72.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_72.Parent = ScreenGui.TextButton_72
+
+ScreenGui.TextButton_73.Name = "-"
+ScreenGui.TextButton_73.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_73.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_73.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_73.Text = "3"
+ScreenGui.TextButton_73.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_73.TextSize = 14.000
+
+ScreenGui.UICorner_76.Parent = ScreenGui.TextButton_73
+
+ScreenGui.UIGradient_73.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_73.Parent = ScreenGui.TextButton_73
+
+ScreenGui.TextButton_74.Name = "-"
+ScreenGui.TextButton_74.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_74.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_74.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_74.Text = "3"
+ScreenGui.TextButton_74.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_74.TextSize = 14.000
+
+ScreenGui.UICorner_77.Parent = ScreenGui.TextButton_74
+
+ScreenGui.UIGradient_74.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_74.Parent = ScreenGui.TextButton_74
+
+ScreenGui.TextButton_75.Name = "-"
+ScreenGui.TextButton_75.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_75.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_75.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_75.Text = "3"
+ScreenGui.TextButton_75.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_75.TextSize = 14.000
+
+ScreenGui.UICorner_78.Parent = ScreenGui.TextButton_75
+
+ScreenGui.UIGradient_75.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_75.Parent = ScreenGui.TextButton_75
+
+ScreenGui.TextButton_76.Name = "-"
+ScreenGui.TextButton_76.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_76.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_76.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_76.Text = "3"
+ScreenGui.TextButton_76.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_76.TextSize = 14.000
+
+ScreenGui.UICorner_79.Parent = ScreenGui.TextButton_76
+
+ScreenGui.UIGradient_76.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_76.Parent = ScreenGui.TextButton_76
+
+ScreenGui.TextButton_77.Name = "-"
+ScreenGui.TextButton_77.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_77.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_77.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_77.Text = "3"
+ScreenGui.TextButton_77.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_77.TextSize = 14.000
+
+ScreenGui.UICorner_80.Parent = ScreenGui.TextButton_77
+
+ScreenGui.UIGradient_77.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_77.Parent = ScreenGui.TextButton_77
+
+ScreenGui.TextButton_78.Name = "-"
+ScreenGui.TextButton_78.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_78.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_78.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_78.Text = "3"
+ScreenGui.TextButton_78.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_78.TextSize = 14.000
+
+ScreenGui.UICorner_81.Parent = ScreenGui.TextButton_78
+
+ScreenGui.UIGradient_78.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_78.Parent = ScreenGui.TextButton_78
+
+ScreenGui.TextButton_79.Name = "-"
+ScreenGui.TextButton_79.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_79.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_79.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_79.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_79.Text = "3"
+ScreenGui.TextButton_79.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_79.TextSize = 14.000
+
+ScreenGui.UICorner_82.Parent = ScreenGui.TextButton_79
+
+ScreenGui.UIGradient_79.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_79.Parent = ScreenGui.TextButton_79
+
+ScreenGui.TextButton_80.Name = "-"
+ScreenGui.TextButton_80.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_80.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_80.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_80.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_80.Text = "3"
+ScreenGui.TextButton_80.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_80.TextSize = 14.000
+
+ScreenGui.UICorner_83.Parent = ScreenGui.TextButton_80
+
+ScreenGui.UIGradient_80.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_80.Parent = ScreenGui.TextButton_80
+
+ScreenGui.TextButton_81.Name = "-"
+ScreenGui.TextButton_81.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_81.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_81.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_81.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_81.Text = "3"
+ScreenGui.TextButton_81.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_81.TextSize = 14.000
+
+ScreenGui.UICorner_84.Parent = ScreenGui.TextButton_81
+
+ScreenGui.UIGradient_81.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_81.Parent = ScreenGui.TextButton_81
+
+ScreenGui.TextButton_82.Name = "-"
+ScreenGui.TextButton_82.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_82.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_82.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_82.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_82.Text = "3"
+ScreenGui.TextButton_82.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_82.TextSize = 14.000
+
+ScreenGui.UICorner_85.Parent = ScreenGui.TextButton_82
+
+ScreenGui.UIGradient_82.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_82.Parent = ScreenGui.TextButton_82
+
+ScreenGui.TextButton_83.Name = "-"
+ScreenGui.TextButton_83.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_83.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_83.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_83.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_83.Text = "3"
+ScreenGui.TextButton_83.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_83.TextSize = 14.000
+
+ScreenGui.UICorner_86.Parent = ScreenGui.TextButton_83
+
+ScreenGui.UIGradient_83.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_83.Parent = ScreenGui.TextButton_83
+
+ScreenGui.TextButton_84.Name = "-"
+ScreenGui.TextButton_84.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_84.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_84.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_84.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_84.Text = "3"
+ScreenGui.TextButton_84.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_84.TextSize = 14.000
+
+ScreenGui.UICorner_87.Parent = ScreenGui.TextButton_84
+
+ScreenGui.UIGradient_84.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_84.Parent = ScreenGui.TextButton_84
+
+ScreenGui.TextButton_85.Name = "-"
+ScreenGui.TextButton_85.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_85.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_85.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_85.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_85.Text = "3"
+ScreenGui.TextButton_85.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_85.TextSize = 14.000
+
+ScreenGui.UICorner_88.Parent = ScreenGui.TextButton_85
+
+ScreenGui.UIGradient_85.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_85.Parent = ScreenGui.TextButton_85
+
+ScreenGui.TextButton_86.Name = "-"
+ScreenGui.TextButton_86.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_86.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_86.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_86.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_86.Text = "3"
+ScreenGui.TextButton_86.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_86.TextSize = 14.000
+
+ScreenGui.UICorner_89.Parent = ScreenGui.TextButton_86
+
+ScreenGui.UIGradient_86.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_86.Parent = ScreenGui.TextButton_86
+
+ScreenGui.TextButton_87.Name = "-"
+ScreenGui.TextButton_87.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_87.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_87.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_87.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_87.Text = "3"
+ScreenGui.TextButton_87.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_87.TextSize = 14.000
+
+ScreenGui.UICorner_90.Parent = ScreenGui.TextButton_87
+
+ScreenGui.UIGradient_87.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_87.Parent = ScreenGui.TextButton_87
+
+ScreenGui.TextButton_88.Name = "-"
+ScreenGui.TextButton_88.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_88.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_88.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_88.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_88.Text = "3"
+ScreenGui.TextButton_88.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_88.TextSize = 14.000
+
+ScreenGui.UICorner_91.Parent = ScreenGui.TextButton_88
+
+ScreenGui.UIGradient_88.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_88.Parent = ScreenGui.TextButton_88
+
+ScreenGui.TextButton_89.Name = "-"
+ScreenGui.TextButton_89.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_89.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_89.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_89.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_89.Text = "3"
+ScreenGui.TextButton_89.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_89.TextSize = 14.000
+
+ScreenGui.UICorner_92.Parent = ScreenGui.TextButton_89
+
+ScreenGui.UIGradient_89.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_89.Parent = ScreenGui.TextButton_89
+
+ScreenGui.TextButton_90.Name = "-"
+ScreenGui.TextButton_90.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_90.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_90.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_90.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_90.Text = "3"
+ScreenGui.TextButton_90.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_90.TextSize = 14.000
+
+ScreenGui.UICorner_93.Parent = ScreenGui.TextButton_90
+
+ScreenGui.UIGradient_90.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_90.Parent = ScreenGui.TextButton_90
+
+ScreenGui.TextButton_91.Name = "-"
+ScreenGui.TextButton_91.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_91.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_91.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_91.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_91.Text = "3"
+ScreenGui.TextButton_91.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_91.TextSize = 14.000
+
+ScreenGui.UICorner_94.Parent = ScreenGui.TextButton_91
+
+ScreenGui.UIGradient_91.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_91.Parent = ScreenGui.TextButton_91
+
+ScreenGui.TextButton_92.Name = "-"
+ScreenGui.TextButton_92.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_92.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_92.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_92.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_92.Text = "3"
+ScreenGui.TextButton_92.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_92.TextSize = 14.000
+
+ScreenGui.UICorner_95.Parent = ScreenGui.TextButton_92
+
+ScreenGui.UIGradient_92.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_92.Parent = ScreenGui.TextButton_92
+
+ScreenGui.TextButton_93.Name = "-"
+ScreenGui.TextButton_93.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_93.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_93.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_93.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_93.Text = "3"
+ScreenGui.TextButton_93.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_93.TextSize = 14.000
+
+ScreenGui.UICorner_96.Parent = ScreenGui.TextButton_93
+
+ScreenGui.UIGradient_93.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_93.Parent = ScreenGui.TextButton_93
+
+ScreenGui.TextButton_94.Name = "-"
+ScreenGui.TextButton_94.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_94.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_94.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_94.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_94.Text = "3"
+ScreenGui.TextButton_94.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_94.TextSize = 14.000
+
+ScreenGui.UICorner_97.Parent = ScreenGui.TextButton_94
+
+ScreenGui.UIGradient_94.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_94.Parent = ScreenGui.TextButton_94
+
+ScreenGui.TextButton_95.Name = "-"
+ScreenGui.TextButton_95.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_95.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_95.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_95.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_95.Text = "3"
+ScreenGui.TextButton_95.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_95.TextSize = 14.000
+
+ScreenGui.UICorner_98.Parent = ScreenGui.TextButton_95
+
+ScreenGui.UIGradient_95.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_95.Parent = ScreenGui.TextButton_95
+
+ScreenGui.TextButton_96.Name = "-"
+ScreenGui.TextButton_96.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_96.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_96.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_96.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_96.Text = "3"
+ScreenGui.TextButton_96.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_96.TextSize = 14.000
+
+ScreenGui.UICorner_99.Parent = ScreenGui.TextButton_96
+
+ScreenGui.UIGradient_96.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_96.Parent = ScreenGui.TextButton_96
+
+ScreenGui.TextButton_97.Name = "-"
+ScreenGui.TextButton_97.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_97.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_97.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_97.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_97.Text = "3"
+ScreenGui.TextButton_97.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_97.TextSize = 14.000
+
+ScreenGui.UICorner_100.Parent = ScreenGui.TextButton_97
+
+ScreenGui.UIGradient_97.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_97.Parent = ScreenGui.TextButton_97
+
+ScreenGui.TextButton_98.Name = "-"
+ScreenGui.TextButton_98.Parent = ScreenGui.ScrollingFrame
+ScreenGui.TextButton_98.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_98.Size = UDim2.new(0, 225, 0, 32)
+ScreenGui.TextButton_98.Font = Enum.Font.SourceSans
+ScreenGui.TextButton_98.Text = "3"
+ScreenGui.TextButton_98.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_98.TextSize = 14.000
+
+ScreenGui.UICorner_101.Parent = ScreenGui.TextButton_98
+
+ScreenGui.UIGradient_98.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
+ScreenGui.UIGradient_98.Parent = ScreenGui.TextButton_98
+
+ScreenGui.TextBox.Parent = ScreenGui.Frame
+ScreenGui.TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextBox.Position = UDim2.new(0, 0, 0.0863787383, 0)
+ScreenGui.TextBox.Size = UDim2.new(0, 239, 0, 22)
+ScreenGui.TextBox.Font = Enum.Font.SourceSans
+ScreenGui.TextBox.Text = ""
+ScreenGui.TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextBox.TextSize = 14.000
+
+ScreenGui.UICorner_102.Parent = ScreenGui.TextBox
+
+ScreenGui.X.Name = "X"
+ScreenGui.X.Parent = ScreenGui.Frame
+ScreenGui.X.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ScreenGui.X.Size = UDim2.new(0, 27, 0, 26)
+ScreenGui.X.Font = Enum.Font.SourceSans
+ScreenGui.X.Text = "X"
+ScreenGui.X.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.X.TextScaled = true
+ScreenGui.X.TextSize = 14.000
+ScreenGui.X.TextWrapped = true
+
+ScreenGui.UICorner_103.Parent = ScreenGui.X
+
+ScreenGui.Open.Name = "Open"
+ScreenGui.Open.Parent = ScreenGui.ScreenGui
+ScreenGui.Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Open.Position = UDim2.new(0.010268569, 0, 0.923205316, 0)
+ScreenGui.Open.Size = UDim2.new(0, 90, 0, 39)
+ScreenGui.Open.Font = Enum.Font.SourceSans
+ScreenGui.Open.Text = "Yv Admin"
+ScreenGui.Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Open.TextScaled = true
+ScreenGui.Open.TextSize = 14.000
+ScreenGui.Open.TextWrapped = true
+
+ScreenGui.UICorner_104.Parent = ScreenGui.Open
+
+ScreenGui.UIGradient_99.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 0))}
+ScreenGui.UIGradient_99.Parent = ScreenGui.Open
+
+-- Scripts:
+
+local function JLWBB_fake_script() -- ScreenGui.Frame.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Frame)
+
+	local scroll = script.Parent.ScrollingFrame -- CHANGE THIS TO YOUR SCROLLING FRAME
+	local textBox = script.Parent.TextBox -- CHANGE THIS TO YOUR TEXT BOX
+	
+	textBox.Changed:Connect(function() -- when the text is changed
+		local text = textBox.Text:lower() -- lowercase search bar text
+		if text ~= "" then -- if it has text
+			local buttons = scroll:GetDescendants() -- all of the buttons
+			for _, button in pairs(buttons) do -- loops through the buttons
+				if button:IsA("TextButton") then -- if it's a button
+					local buttonText = button.Text:lower() -- lowercase button text
+					if string.find(buttonText, text) then -- if search bar text is found in the button's text
+						button.Visible = true -- shows button
+					else -- otherwise
+						button.Visible = false -- hides button
+					end
+				end
+			end
+		else -- if it's empty
+			local buttons = scroll:GetDescendants() -- all buttons
+			for _, button in pairs(buttons) do -- loops through buttons
+				if button:IsA("TextButton") then -- if it's a button
+					button.Visible = true -- shows button
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(JLWBB_fake_script)()
+local function YGCW_fake_script() -- ScreenGui.Frame.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Frame)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(YGCW_fake_script)()
+local function QNKMKYP_fake_script() -- ScreenGui.X.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.X)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(QNKMKYP_fake_script)()
+local function NLVYJV_fake_script() -- ScreenGui.Open.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Open)
+
+	local frame = script.Parent.Parent.Frame  --- Change This to the Frame Name
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(NLVYJV_fake_script)()
