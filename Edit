@@ -1,4 +1,4 @@
---Yv Admin v1.9
+--Yv Admin v2.0
 
 local ScreenGui = {
 	ScreenGui = Instance.new("ScreenGui"),
@@ -1718,10 +1718,15 @@ ScreenGui.TextButton_50.Parent = ScreenGui.ScrollingFrame
 ScreenGui.TextButton_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextButton_50.Size = UDim2.new(0, 225, 0, 32)
 ScreenGui.TextButton_50.Font = Enum.Font.SourceSans
-ScreenGui.TextButton_50.Text = "3"
+ScreenGui.TextButton_50.Text = "RVX Admin"
 ScreenGui.TextButton_50.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_50.TextScaled = true
 ScreenGui.TextButton_50.TextSize = 14.000
-------------------------------------------------------------------------------------------------- START HERE
+ScreenGui.TextButton_50.TextWrapped = true
+ScreenGui.TextButton_50.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/YvDev4500/none/main/README.md", true))()
+end)
+
 ScreenGui.UICorner_53.Parent = ScreenGui.TextButton_50
 
 ScreenGui.UIGradient_50.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
@@ -1732,9 +1737,19 @@ ScreenGui.TextButton_51.Parent = ScreenGui.ScrollingFrame
 ScreenGui.TextButton_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextButton_51.Size = UDim2.new(0, 225, 0, 32)
 ScreenGui.TextButton_51.Font = Enum.Font.SourceSans
-ScreenGui.TextButton_51.Text = "3"
+ScreenGui.TextButton_51.Text = "Remove face"
 ScreenGui.TextButton_51.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextButton_51.TextScaled = true
 ScreenGui.TextButton_51.TextSize = 14.000
+ScreenGui.TextButton_51.TextWrapped = true
+ScreenGui.TextButton_51.MouseButton1Down:connect(function()
+	for i,f in pairs(game.Workspace[game.Players.LocalPlayer.Name].Head:GetChildren()) do
+    if f:IsA("Decal") and f.Name == "face" then
+        f.Parent = nil
+    end
+
+end
+end)
 
 ScreenGui.UICorner_54.Parent = ScreenGui.TextButton_51
 
@@ -1749,7 +1764,7 @@ ScreenGui.TextButton_52.Font = Enum.Font.SourceSans
 ScreenGui.TextButton_52.Text = "3"
 ScreenGui.TextButton_52.TextColor3 = Color3.fromRGB(0, 0, 0)
 ScreenGui.TextButton_52.TextSize = 14.000
-
+-------------------------------------------------------------------------------------------- START HERE
 ScreenGui.UICorner_55.Parent = ScreenGui.TextButton_52
 
 ScreenGui.UIGradient_52.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 127))}
